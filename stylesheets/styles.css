@@ -5,40 +5,69 @@
 	
 	margin-left: 10px;
 	margin-right: 10px;
+	height: 1000px;
 
 }
-#sectionheader {
-	
+#header-nav {
+	background-color: #f6b319;
+	border-radius: 0;
+	border: 0;
+
+}
+.navbar-brand {
+	font-weight: bold;
+	font-size: 24px;
+	font-style: italic;
+	margin-left: 20px;
+	padding-left: 30px;
+
 
 }
 #cell {
 	border: 1px solid black;
 	padding: 0px;
-	column-gap: 30px;
+	
 	background-color: gray;
 }
-#thegutter{
+#sectionheader{
 	background-color: white;
+	text-align: center;
 
 
 }
+.navbar-header button.navbar-toggle {
+	clear: both;
+
+
+}
+.fullwidth{
+	margin: 0;
+	padding: 0;
+}
+
+
+/* media querie to make chicken invisible at medium and large sized */
+
+
 
 #chicken  {
+
 	background-color: #77ffff;
-	border: 2px solid black;
+	border: 0;
 	text-align: center;
-	padding-left: 10px;
+	border: 1px solid black;
 
 }
 
 #beef {
 	background-color: red;
-	border: 2px solid black;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
 	text-align: center;
 }
 
 #sushi {
 	background-color: yellow;
-	border: 2px solid black;
+	border: 1px solid black;
 	text-align: center;
 }

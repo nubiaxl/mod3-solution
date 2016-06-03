@@ -54,7 +54,7 @@
 
 	background-color: #77ffff;
 	border: 0;
-	text-align: center;
+	
 	border: 1px solid black;
 
 }
@@ -63,11 +63,11 @@
 	background-color: red;
 	border-left: 1px solid black;
 	border-right: 1px solid black;
-	text-align: center;
+	
 }
 
 #sushi {
 	background-color: yellow;
 	border: 1px solid black;
-	text-align: center;
+	
 }
